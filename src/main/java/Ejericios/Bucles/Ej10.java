@@ -10,6 +10,6 @@ public class Ej10 {
         Float fahrenheit = scanner.nextFloat();
         // Calcular
         float celsius = (5f / 9f) * (fahrenheit - 32f);
-        System.out.println(celsius);
+        System.out.println(celsius + "ºC");
     }
 }

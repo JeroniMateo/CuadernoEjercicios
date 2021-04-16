@@ -9,17 +9,18 @@ public class Ej12 {
             Integer n1 = 0;
             Integer n2 = 1;
             Integer aux;
-            Integer limite = 51;
+            Integer limite = 0;
 
             System.out.println(n1);
             System.out.println(n2);
 
-            while (n2 + n1 <= limite) {
+            while (limite !=50) {
                 aux = n1;
                 n1 = n2;
                 n2 = aux + n1;
 
                 System.out.println(n2);
+                limite = limite+1;
             }
         }
     }

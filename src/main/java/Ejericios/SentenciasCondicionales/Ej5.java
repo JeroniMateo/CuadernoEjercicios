@@ -18,10 +18,10 @@ public class Ej5 {
         * Dependiendo si la 1a o la segunda variable es mayor imprime una variable u otra
         * */
         if (num1 > num2) {
-            System.out.println(num1 + "Es mayor");
+            System.out.println(num1 + " Es mayor");
         }
         if (num2>num1){
-            System.out.println(num2 + "Es mayor");
+            System.out.println(num2 + " Es mayor");
         }else if (num1 == num2){
             System.out.println(num1 + " y " + num2 + "Son iguales");
         }
