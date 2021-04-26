@@ -1,33 +1,34 @@
 package Ejericios.Bucles;
 
 import java.util.Scanner;
-
+//Por revisar
 public class Ej15 {
     public static void main(String[] args) {
+        int adivina=0;
+        int num = 0;
+        int vidas=3;
 
-        /*Integer vidas=3;
 
-        do {
-           System.out.println("Escribe un numero");
-           Scanner scanner = new Scanner(System.in);
-           Integer num = scanner.nextInt();
+        while (!(num == adivina || vidas ==0));{
 
-           Integer adivina = Math.random();
-       }
-        while (!num == adivina){
+            adivina = (int) (100*Math.random()+1);
 
 
             System.out.println("Escribe un numero");
             Scanner scanner = new Scanner(System.in);
-            Integer num = scanner.nextInt();
+             num = scanner.nextInt();
 
-            Integer adivina = Math.random();
 
-             vidas = vidas -1;*/
+             vidas = vidas -1;
 
+        }
+        if (vidas ==0){
+            System.out.println("Has perdido");
+        }else if (num ==adivina){
+            System.out.println("Ganaste");
         }
 
 
-
     }
+}
 
