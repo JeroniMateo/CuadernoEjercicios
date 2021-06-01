@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Ej17 {
     public static void main(String[] args) {
-        Integer i;
-        Integer[] numeros = new Integer[5];
+        int i;
+        int[] numeros = new int[5];
 
         Scanner teclado = new Scanner(System.in);
 
@@ -27,7 +27,7 @@ public class Ej17 {
             unionString += numeros[j];
         }
 
-        union = Integer.parseInt(unionString);
+
         System.out.println(union);
     }
 }
