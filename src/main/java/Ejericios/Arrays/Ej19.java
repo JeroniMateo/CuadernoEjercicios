@@ -44,7 +44,7 @@ public class Ej19 {
             for ( k = 0; k <v2.length ; k++) {
                 if (v1[i]==v2[i]){
                     for (int l = 0; l <v3.length ; l++) {
-                        v3[l]==v2[i];
+                      //  v3[l]==v2[i];
                     }
 
                 }
